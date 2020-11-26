@@ -12,7 +12,9 @@ The ability to manually update WordPress from the admin area, and to install and
 To make the user experience of auto-updates even better, and build trust with users and extenders, it's important that this mechanism works well and provides all the failsafe checks needed.
 
 The WordPress Core update has proven to be generally reliable, but it doesn't actually have many tests nor is well documented. There are also some reliability concerns around adding new files and the overall number of changed files, which is the reason WordPress currently tries to [keep the number of changed files in minor releases to a minimum](https://make.wordpress.org/core/2017/03/11/continuing-inline-docs-improvements-adjacent-to-4-8/#comment-32248).
+
 Plugins and themes updaters are older: in general, all of them can be improved.
+
 As one of the most widely used plugins in the WordPress ecosystem, we have experienced some pains related to these processes so decided to actively work on this issues. We believe that other plugin and themes authors have gone through the same experiences and we hope they will join us in this effort of updating the updater.
 
 ## What are we working on
@@ -25,5 +27,5 @@ We have created a GitHub repository under our company account. There, you will f
 Once the reasearch part is over, and the steps to take to improve the updaters are clear, we will start weekly meetings in #core or a dedicated channel.
 
 ## Timeline
-5.7 - Reaserch and proposal phase
-5.8 - Coding and documenting 
+- WordPress 5.7 - Reaserch and proposal phase
+- WordPress 5.8 - Coding and documenting 
