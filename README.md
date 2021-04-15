@@ -1,4 +1,4 @@
-# update-updater
+# Feature project: update the updater 
 
 The ability to manually update WordPress from the admin area, and to install and update plugins and themes, has existed since 2.3 in 2007.
 Auto-update features were added in WordPress 3.7 (for minor releases), extended in 5.5 (as opt-in for plugins and themes), and 5.6 (major releases). To make the user experience of auto-updates even better, and build trust with users and extenders, it’s important that this mechanism works well and provides all the failsafe checks needed.
