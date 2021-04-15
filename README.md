@@ -42,8 +42,8 @@ This capability should be extended to be available for plugin and theme updates.
 Plugins should be able to easily run database migrations, so that update and rollback could be performed not only for files but also for data.
 
 Yoast already does this by having a migrations library:
-https://github.com/Yoast/wordpress-seo/tree/trunk/lib/migrations
-https://github.com/Yoast/wordpress-seo/tree/trunk/src/config/migrations
+- https://github.com/Yoast/wordpress-seo/tree/trunk/lib/migrations
+- https://github.com/Yoast/wordpress-seo/tree/trunk/src/config/migrations
 
 If we had a unified process for data migrations in core, WordPress would be able to run the latest available migration after an update or rollback, without the need to store anything about the previous state. That would not also require anything from the plugin author, apart from adding a "migrations" folder.
 
